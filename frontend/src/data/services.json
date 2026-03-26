@@ -1,0 +1,270 @@
+{
+    "commonDescription": "Our comprehensive suite of services is designed to provide you with the expertise and guidance needed to achieve your financial goals.",
+    "services": [
+        {
+            "serviceId": "svc1",
+            "name": "Investment & Wealth Management Consulting",
+            "url": "investment-wealth-management-consulting",
+            "shortDesc": " ",
+            "thumbImg": "/service/service1.png",
+            "hero": {
+                "bg": "/service/bg/bg-investmentmanagement.png",
+                "name": "Investment & Wealth Management Consulting",
+                "header": "Investment & Wealth Management Consulting",
+                "bold": "Investment & Wealth Management",
+                "description": "Where strategy becomes structure."
+            },
+            "processSectionTemplate": "template1",
+            "textWithImageTemplate": "template1",
+            "herotemplate": "template1",
+            "textWithImageSection": {
+                "paragraphs": [
+                    "Without a clear goal, you end up wandering. Our investment and wealth management consulting service starts with your life goals and works backwards to lay out steps to achieve them. Every move is meticulously planned and every portfolio decision is backed by a personalised strategy that reflects your vision, ambitions, and risk appetite. Asset management is carried out with structure, discipline, and forward-looking insight so that every decision moves you closer to where you want to be."
+                ],
+                "image": "/textwithimage/investment.png"
+            },
+            "processSection": {
+                "description": "",
+                "image": "/process/investment.png",
+                "header": "Core principles",
+                "process": [
+                    {
+                        "id": "01",
+                        "heading": "Tailored asset allocation aligned to long-term goals",
+                        "description": ""
+                    },
+                    {
+                        "id": "02",
+                        "heading": "Blended portfolios: Strategic active-passive exposure",
+                        "description": ""
+                    },
+                    {
+                        "id": "03",
+                        "heading": "Continuous monitoring and reallocation based on macro shifts",
+                        "description": ""
+                    },
+                    {
+                        "id": "04",
+                        "heading": "Growth-oriented frameworks with built-in risk controls",
+                        "description": ""
+                    }
+                ]
+            },
+            "whyChooseSection": {
+                "description": "We combine real-time market data and proven strategies to actively grow and protect your investments.",
+                "header": "What we deliver",
+                "button": "true",
+                "disclaimer": "Wealth management services are advisory only. Diversification reduces risk but does not eliminate it. Investments remain subject to market, liquidity, and credit risks.",
+                "features": [
+                    {
+                        "heading": "Goal-specific investment alignment consulting",
+                        "description": ""
+                    },
+                    {
+                        "heading": "Global Asset Diversification",
+                        "description": ""
+                    },
+                    {
+                        "heading": "Business scaling and exit planning",
+                        "description": ""
+                    },
+                    {
+                        "heading": "Retirement readiness frameworks",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        {
+            "serviceId": "svc2",
+            "name": "Portfolio Management Advisory",
+            "url": "portfolio-management-advisory",
+            "shortDesc": "Institutional portfolio strategies for consistent growth.",
+            "thumbImg": "/service/service2.png",
+            "hero": {
+                "bg": "/service/bg/bg-portfolio.png",
+                "name": "Portfolio Management Advisory",
+                "header": "Portfolio Management Advisory",
+                "bold": "Portfolio Management",
+                "description": "Strategy & Oversight - Built to adapt. Designed to align."
+            },
+            "processSectionTemplate": "template2",
+            "textWithImageTemplate": "template2",
+            "herotemplate": "template1",
+            "textWithImageSection": {
+                "paragraphs": [
+                    "Our portfolio oversight is designed to evolve and not merely manage. A strategy that has helped our clients receive 5-7% returns monthly on their portfolios. We move beyond static rebalancing with a forward-looking framework that adjusts to changing market dynamics, personal milestones and long-term capital goals.",
+                    "Whether your portfolio spans multiple asset classes or focuses on high-conviction positions, we provide institutional-grade insight to ensure each decision is intentional, aligned, and performance-driven.",
+                    "Our portfolio management service ensures your portfolio remains optimised through changing market conditions and personal goals. We manage asset allocation with precision, ensuring your investments stay aligned with both market dynamics and your personal financial trajectory. Our team continuously monitors performance, re-balances when necessary and provides detailed insights to keep you informed."
+                ],
+                "image": "/textwithimage/portfolionew.png"
+            },
+            "processSection": {
+                "description": "Built for precision. Backed by experience. Delivered with intent.",
+                "image": "/process/portfolio.png",
+                "header": "The Process",
+                "process": [
+                    {
+                        "id": "01",
+                        "heading": "Portfolio Review",
+                        "description": "We start with a detailed consultation to understand your capital base, financial objectives, investment horizon, and risk appetite. This foundation shapes every decision that follows."
+                    },
+                    {
+                        "id": "02",
+                        "heading": "Risk Calculation",
+                        "description": "Leveraging macroeconomic insight, asset class expertise and proprietary analytics, we develop a tailored investment strategy built to meet your goals under real-world conditions."
+                    },
+                    {
+                        "id": "03",
+                        "heading": "Deploying strategy",
+                        "description": "Capital is deployed with precision, guided by market timing, liquidity conditions and position sizing. We ensure that asset allocation aligns with both your objectives and current market realities."
+                    },
+                    {
+                        "id": "04",
+                        "heading": "Ongoing Oversight",
+                        "description": "Portfolios are monitored continuously, with dynamic rebalancing, risk management and periodic reviews to keep you ahead of change."
+                    }
+                ]
+            },
+            "whyChooseSection": {
+                "description": "Your portfolio is monitored, rebalanced, and optimized regularly to align with market shifts and goals.",
+                "header": "Key Services",
+                "button": "false",
+                "disclaimer": "Portfolio insights are advisory only and do not guarantee returns. Clients retain custody of their funds at all times.",
+                "features": [
+                    {
+                        "heading": "Precision rebalancing with real-time analytics",
+                        "description": "Smart portfolio adjustments with live market data"
+                    },
+                    {
+                        "heading": "Multi-asset class diversification models",
+                        "description": "Diversifying your portfolio across different investment types"
+                    },
+                    {
+                        "heading": "Periodic strategy audits and stress-testing",
+                        "description": "Regular check-ups on your investment strategy"
+                    },
+                    {
+                        "heading": "Actionable reporting and performance diagnostics",
+                        "description": "Clear reports that show how your portfolio is performing"
+                    }
+                ]
+            }
+        },
+        {
+            "serviceId": "svc3",
+            "name": "CapitalCode",
+            "url": "CapitalCode",
+            "shortDesc": "Our unique financial literacy program",
+            "thumbImg": "/service/service3.png",
+            "hero": {
+                "bg": "/service/bg/bg-capitalcode.png",
+                "header": "The CapitalCode",
+                "bold": "CapitalCode",
+                "name": "CapitalCode",
+                "description": "Strategy-led financial literacy program"
+            },
+            "processSectionTemplate": "template1",
+            "textWithImageTemplate": "template1",
+            "herotemplate": "template1",
+            "textWithImageSection": {
+                "paragraphs": [
+                    "CapitalCode is a first-of-its-kind, 1:1 strategy-led financial literacy program that has been built directly from the frameworks we apply to real portfolios. It’s where world-class investment advisors, capital market professionals and private equity strategists come together to discuss not just the what, but the why behind wealth.",
+                    "This isn’t theory. This is training in the language of capital, drawn from the actual advisory processes used for HNIs and private clients at Wall Street Jr."
+                ],
+                "image": "/textwithimage/research.png",
+                "name": "CapitalCode"
+            },
+            "processSection": {
+                "description": "",
+                "image": "/process/CapitalCode.png",
+                "header": "Core Values",
+                "process": [
+                    {
+                        "id": "01",
+                        "heading": "Codified Investment Strategy",
+                        "description": "Complex financial knowledge is made more accessible through an actionable, algorithmic framework."
+                    },
+                    {
+                        "id": "02",
+                        "heading": "Scalable & Adaptive",
+                        "description": "Works across asset classes (Equities, Forex, Commodities, Crypto, Bonds)"
+                    },
+                    {
+                        "id": "03",
+                        "heading": "Transparency & Control",
+                        "description": "You get to see the “code” behind portfolios. Get closer to why decisions are made, backed by research. An easy way to bridge the gap between education, advisory and execution."
+                    },
+                    {
+                        "id": "04",
+                        "heading": "Future-focused",
+                        "description": "Aligned with the foundation for Wall Street Jr.’s vision of a private banking ecosystem"
+                    }
+                ]
+            },
+            "whyChooseSection": {
+                "description": "We help you identify, understand, and control risks using institutional frameworks and stress-tested strategies.",
+                "disclaimer": "CapitalCode is for educational purposes only. Examples and strategies discussed are illustrative and should not be taken as investment advice. Clients should seek independent financial advice before applying any concepts.",
+                "features": []
+            }
+        },
+        {
+            "serviceId": "svc4",
+            "url": "risk-management-asset-restructuring",
+            "name": "Risk Management / Asset Restructuring",
+            "shortDesc": " ",
+            "thumbImg": "/service/service4.png",
+            "hero": {
+                "bg": "/service/bg/bg-risk.png",
+                "name": "Risk Management / Asset Restructuring",
+                "herotemplate": "template1",
+                "header": "Risk Management / Asset Restructuring",
+                "bold": "Risk Asset",
+                "description": "Stay ahead of volatilities with sharpened planning and dynamic strategies."
+            },
+            "processSectionTemplate": "template1",
+            "textWithImageTemplate": "template1",
+            "herotemplate": "template1",
+            "textWithImageSection": {
+                "paragraphs": [
+                    "Volatility is a feature and not a flaw of financial markets. The difference lies in how you manage it. With foresight, expertise and planning, we offer restructuring solutions that can help you stay ahead of risks. The learning is that you can’t eliminate risk, but you can control its impact.",
+                    "We help you navigate financial risk with precision and purpose, starting by uncovering portfolio vulnerabilities across market, credit, liquidity, and operational domains. We then apply tailored mitigation strategies to protect your capital while supporting your broader investment goals. Through ongoing analysis, real-time monitoring and scenario planning, we enhance your portfolio’s resilience, ensuring  you're prepared to perform in any market environment."
+                ],
+                "image": "/textwithimage/research.png",
+                "name": "Risk Management"
+            },
+            "processSection": {
+                "description": "Our process helps identify, assess, and mitigate risks using structured analysis and institutional-grade risk control tools.",
+                "image": "/process/risk-analysis.png",
+                "header": "The Process",
+                "process": [
+                    {
+                        "id": "01",
+                        "heading": "Risk Identification",
+                        "description": "We assess all potential market, credit, and liquidity risks that can impact your capital."
+                    },
+                    {
+                        "id": "02",
+                        "heading": "Risk Strategy Mapping",
+                        "description": "We create a mitigation plan using hedging, diversification, and protective tools."
+                    },
+                    {
+                        "id": "03",
+                        "heading": "Execution & Safeguards",
+                        "description": "Protective strategies are implemented alongside existing investments."
+                    },
+                    {
+                        "id": "04",
+                        "heading": "Monitoring & Reassessment",
+                        "description": "Risks are tracked continuously and strategies are updated when needed."
+                    }
+                ]
+            },
+            "whyChooseSection": {
+                "description": "Tailored financial plans designed to match your life goals, timeline, tax needs, and financial future.",
+                "disclaimer": "Risk frameworks are applied on a best-efforts basis and cannot fully eliminate exposure to financial loss. Clients should carefully consider their tolerance for risk before acting on advisory inputs.",
+                "features": []
+            }
+        }
+    ]
+}

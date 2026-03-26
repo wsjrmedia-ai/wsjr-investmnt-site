@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "title": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "date": "12 July 2025",
+    "writer": "Writer Name Here",
+    "category":  ["Catg 1", "Investment", "Finance"],
+    "image": "/blogs/blog1.png",
+    "description": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "tags": ["popular"]
+  },
+  {
+    "id": 2,
+    "title": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "date": "12 July 2025",
+    "writer": "Writer Name Here",
+    "category":  ["Investment", "Finance"],
+    "image": "/blogs/blog2.png",
+    "description": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "tags": ["popular"]
+  },
+  {
+    "id": 3,
+    "title": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "date": "12 July 2025",
+    "writer": "Writer Name Here",
+    "category":  ["Finance", "Trading", "Global"],
+    "image": "/blogs/blog3.png",
+    "description": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "tags": ["popular"]
+  },
+  {
+    "id": 4,
+    "title": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "date": "12 July 2025",
+    "writer": "Writer Name Here",
+    "category":  ["Finance", "Trading"],
+    "image": "/blogs/blog4.png",
+    "description": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "tags": ["popular"]
+  },
+
+    {
+    "id": 5,
+    "title": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "date": "12 July 2025",
+    "writer": "Writer Name Here",
+    "category":  ["Finance", "Trading", "Global"],
+    "image": "/blogs/blog5.png",
+    "description": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "tags": []
+  },
+    {
+    "id": 6,
+    "title": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "date": "12 July 2025",
+    "writer": "Writer Name Here",
+    "category":  ["Finance", "Trading"],
+    "image": "/blogs/blog6.png",
+    "description": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "tags": ["popular"]
+  },
+    {
+    "id": 7,
+    "title": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "date": "12 July 2025",
+    "writer": "Writer Name Here",
+    "category":  ["Finance", "Trading"],
+    "image": "/blogs/blog7.png",
+    "description": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "tags": []
+  },
+    {
+    "id": 8,
+    "title": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "date": "12 July 2025",
+    "writer": "Writer Name Here",
+    "category":  ["Finance", "Trading","Catg 1", "Investment"],
+    "image": "/blogs/blog8.png",
+    "description": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "tags": []
+  },
+    {
+    "id": 9,
+    "title": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "date": "12 July 2025",
+    "writer": "Writer Name Here",
+    "category":  ["Finance", "Trading","Catg 1", "Investment","Global"],
+    "image": "/blogs/blog9.png",
+    "description": "Forex GBP/USD forecast July 2025: DOLLAR SINKS NEAR 3-YEAR",
+    "tags": []
+  }
+]

@@ -1,0 +1,214 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #071E2F;
+  --font-sans: 'Montserrat';
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  /* --font-sans: var(--font-sans); */
+  /* --font-mono: var(--font-sans); */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #071E2F;
+    --foreground: #ededed;
+  }
+}
+
+@theme {
+  --breakpoint-small: 23.1875rem; /* 371px */
+  --breakpoint-mobile: 24.0625rem; /* 385px */
+  --breakpoint-mac: 80rem;        /* 1280px */
+  --breakpoint-3xl: 120rem;       /* 1920px */
+  --breakpoint-super: 156.25rem;    /* 2500px */
+}
+
+
+
+
+
+@keyframes gradient-x {
+
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 3s ease infinite;
+}
+
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* Limit height of base64 images */
+.prose img[src^="data:image"] {
+  max-height: 488px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  /* Matches Tailwind's rounded-lg */
+  margin-top: 1.5rem;
+  /* Matches Tailwind's my-6 */
+  margin-bottom: 1.5rem;
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  /* max-width: 2500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Toast container background and glow */
+.Toastify__toast {
+  background-color: #071E2F !important;
+  color: white !important;
+  border: 1px solid #B28245 !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  box-shadow: none !important;
+  /* removes the golden glow */
+}
+
+/* Optional: golden progress bar */
+.Toastify__progress-bar {
+  background: #B28245 !important;
+}
+
+.card-hover-bg:hover {
+  background-color: #0a1a27;
+  border: none;
+}
+
+.card-hover-bg:hover::after {
+  background-color: rgba(10, 26, 39, 0.75);
+  border: none;
+}
+
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide {
+  animation: slide 30s linear infinite;
+}
+
+/* Hide the entire BotPenguin attribution div */
+div#ele-24 {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.label-dzbd7lyV.top-dzbd7lyV {
+  top: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.recharts-wrapper {
+  height: 545px !important;
+}
+
+
+@layer utilities {
+  .main-heading {
+    @apply text-[27px] sm:text-4xl mac:text-5xl lg:text-6xl 2xl:text-6xl;
+  }
+
+  .text-fluid {
+    @apply text-base md:text-lg lg:text-xl 2xl:text-xl font-semibold;
+  }
+
+  .heading-sub {
+    @apply text-[16px] md:text-[21px] 3xl:text-[25px];
+  }
+
+  .desc-sub {
+    @apply md:text-[14px] text-[1rem] 3xl:text-[20px] font-normal;
+  }
+
+
+  .section-heading {
+    @apply text-lg sm:text-xl lg:text-[25px] 3xl:text-[30px] font-semibold;
+  }
+
+  .section-desc {
+    @apply text-[16px] sm:text-lg lg:text-[21px] font-light;
+  }
+
+
+}
+
+
+
+
+
+/* // large screens   */
+
+@media (min-width: 1920px) {
+  .main-heading {
+    font-size: 70px !important;
+  }
+
+  .text-fluid {
+    font-size: 35px !important;
+  }
+}
+
+
+/* @media (min-width: 2500px) {
+  body {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    max-width: 2400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+} */
+
+
