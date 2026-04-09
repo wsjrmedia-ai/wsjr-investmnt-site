@@ -11,12 +11,14 @@ export async function POST(req) {
       return NextResponse.json({ error: 'Name, email, and phone are required' }, { status: 400 });
     }
 
-    const { data: userContact, error } = await supabase.from('user_contacts').insert({
+    const { error } = await supabase.from('user_contacts').insert({
       name,
       email,
       phone,
       message: description || '',
-    }).select().single();
+    });
+
+    const userContact = { name, email, phone }; // mock it for the response
 
     if (error) {
       console.error('Supabase error inserting user contact:', error);
