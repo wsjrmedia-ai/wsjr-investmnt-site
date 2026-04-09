@@ -130,19 +130,6 @@ html {
   animation: slide 30s linear infinite;
 }
 
-/* Hide the entire BotPenguin attribution div */
-div#ele-24 {
-  display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  width: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  overflow: hidden !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-}
-
 .label-dzbd7lyV.top-dzbd7lyV {
   top: auto;
   top: 50%;

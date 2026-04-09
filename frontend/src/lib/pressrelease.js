@@ -6,9 +6,9 @@ export const getAllPressRelease = async () => {
 
   const data = await res.json();
 
-  return data.map(({ _id, image, title, description, link, date }) => ({
-    id: _id,
-    image,
+  return data.map(({ id, imageLink, title, description, link, date }) => ({
+    id,
+    image: imageLink,
     title,
     description,
     link,

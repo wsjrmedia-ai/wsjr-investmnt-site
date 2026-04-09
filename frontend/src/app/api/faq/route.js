@@ -4,7 +4,7 @@ import { supabase } from '@/lib/supabase';
 export async function GET() {
   try {
     const { data: faqs, error } = await supabase
-      .from('investment_faqs')
+      .from('faqs')
       .select('*')
       .order('order_index');
 

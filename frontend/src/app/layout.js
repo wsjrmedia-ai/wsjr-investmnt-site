@@ -5,7 +5,7 @@ import RiskDisclosure from "@/components/common/RiskDisclosure";
 import PerformanceMonitor from "@/components/common/PerformanceMonitor";
 import ClientSideOptimizations from "@/components/common/ClientSideOptimizations";
 import { Montserrat } from "next/font/google";
-import BotPenguinWidget from "@/components/BotPenguinWidget";
+import FloatingWhatsapp from "@/components/FloatingWhatsapp";
 
 
 const montserrat = Montserrat({
@@ -49,7 +49,6 @@ export default function RootLayout({ children }) {
         {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://cdn.botpenguin.com" />
         <link rel="preconnect" href="https://s3.tradingview.com" />
         
         {/* DNS prefetch for performance */}
@@ -59,24 +58,13 @@ export default function RootLayout({ children }) {
         
         <link rel="icon" href="/favicon.png" />
         <link rel="apple-touch-icon" href="/favicon.png" />
-
-        {/* Optimized BotPenguin Widget Script - load with lower priority */}
-
-        <script 
-          id="messenger-widget-b" 
-          src="https://cdn.botpenguin.com/website-bot.js" 
-          defer 
-          data-load-strategy="idle"
-        >
-          68949246831c330376305b47,683d2cced58c28b3539c9d61
-        </script>
       </head>
       <body className="antialiased">
         <PerformanceMonitor />
         <ClientSideOptimizations />
         {children}
         <GoldenMouseLight />
-        <BotPenguinWidget />
+        <FloatingWhatsapp />
         <Footer />
       </body>
     </html>
