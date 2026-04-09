@@ -22,38 +22,6 @@ const nextConfig = {
         tls: false,
       };
     }
-    
-    // Optimize bundle splitting
-    config.optimization.splitChunks = {
-      chunks: 'all',
-      cacheGroups: {
-        vendor: {
-          test: /[\\/]node_modules[\\/]/,
-          name: 'vendors',
-          chunks: 'all',
-          priority: 10,
-        },
-        common: {
-          name: 'common',
-          minChunks: 2,
-          chunks: 'all',
-          priority: 5,
-          reuseExistingChunk: true,
-        },
-        swiper: {
-          test: /[\\/]node_modules[\\/]swiper[\\/]/,
-          name: 'swiper',
-          chunks: 'all',
-          priority: 20,
-        },
-        framerMotion: {
-          test: /[\\/]node_modules[\\/]framer-motion[\\/]/,
-          name: 'framer-motion',
-          chunks: 'all',
-          priority: 20,
-        },
-      },
-    };
 
     return config;
   },
@@ -82,6 +50,11 @@ const nextConfig = {
         protocol: "https",
         hostname: "res.cloudinary.com",
         pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "qyvrbkecsjgbdkykklke.supabase.co",
+        pathname: "/storage/**",
       },
     ],
   },
@@ -121,14 +94,6 @@ const nextConfig = {
     ];
   },
 
-  async rewrites() {
-    return [
-      {
-        source: "/api/:path*",
-        destination: "http://158.252.120.102/api/:path*", // proxy to backend
-      },
-    ];
-  },
 };
 
 export default nextConfig;

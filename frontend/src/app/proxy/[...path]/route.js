@@ -16,7 +16,8 @@ export async function DELETE(req, { params }) {
 
 async function handleProxy(method, req, params) {
   const { path } = params;
-  const url = `http://40.172.159.105/api/${path.join("/")}`;
+  const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:5000/api";
+  const url = `${baseUrl}/${path.join("/")}`;
 
   let body;
   if (method !== "GET" && method !== "DELETE") {

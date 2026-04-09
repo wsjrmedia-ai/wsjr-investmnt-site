@@ -1,6 +1,6 @@
-const PRESS_RELEASE_API = '/api/press-realse';
+const PRESS_RELEASE_API = '/api/press-release';
 
-export const getAllPressRealse = async () => {
+export const getAllPressRelease = async () => {
   const res = await fetch(PRESS_RELEASE_API, { cache: "no-store" });
   if (!res.ok) throw new Error('Failed to fetch press releases');
 

@@ -4,7 +4,7 @@ import { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import PressReleaseSkeleton from "@/UI/PressReleaseSkeleton";
 import ButtonWithImage from "@/UI/AnimatedButton";
-import { getAllPressRealse } from "@/lib/pressrealse";
+import { getAllPressRelease } from "@/lib/pressrelease";
 
 export default function PressReleaseBlogs() {
     const [press, setPress] = useState([]);
@@ -23,7 +23,7 @@ export default function PressReleaseBlogs() {
     useEffect(() => {
         async function fetchPress() {
             try {
-                const allPress = await getAllPressRealse();
+                const allPress = await getAllPressRelease();
                 setPress(allPress.slice(0, 15));
             } catch (error) {
                 console.error("Error fetching press releases:", error);

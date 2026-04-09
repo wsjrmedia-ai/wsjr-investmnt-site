@@ -9,14 +9,22 @@ import FAQSkeleton from '../Loading/FAQSkeleton';
 export default function FAQSection() {
   const [faqs, setFaqs] = useState([]);
   const [openIndex, setOpenIndex] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchFAQs = async () => {
       try {
         const data = await getAllFAQs();
-        setFaqs(data);
+        if (Array.isArray(data)) {
+          setFaqs(data);
+        } else {
+          setFaqs([]);
+        }
       } catch (error) {
         console.error('Error fetching FAQs:', error);
+        setFaqs([]);
+      } finally {
+        setLoading(false);
       }
     };
     fetchFAQs();
@@ -26,7 +34,10 @@ export default function FAQSection() {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  return faqs.length === 0 ? <FAQSkeleton /> : (
+  if (loading) return <FAQSkeleton />;
+  if (faqs.length === 0) return null;
+
+  return (
     <main className="bg-[#071E2F] text-white px-4 md:px-16 pb-16 py-16 md:py-20 font-sans">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
         {/* LEFT SIDE */}
