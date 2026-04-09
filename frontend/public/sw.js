@@ -1,5 +1,5 @@
 // Service Worker for caching static assets
-const CACHE_NAME = 'wallstreet-v30';
+const CACHE_NAME = 'wallstreet-v31';
 const STATIC_ASSETS = [
   '/',
   '/favicon.png',
