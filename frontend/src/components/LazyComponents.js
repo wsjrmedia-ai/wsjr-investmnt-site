@@ -52,9 +52,9 @@ export const PressReleaseBlogs = dynamic(() => import('@/components/Home/PressRe
   loading: () => <div className="h-[400px] bg-gray-800 animate-pulse" />,
 });
 
-export const FAQSection = dynamic(() => import('@/components/Home/FAQSection'), {
-  loading: () => <div className="h-[300px] bg-gray-800 animate-pulse" />,
-});
+// export const FAQSection = dynamic(() => import('@/components/Home/FAQSection'), {
+//   loading: () => <div className="h-[300px] bg-gray-800 animate-pulse" />,
+// });
 
 export const NewsletterSection = dynamic(() => import('@/components/Home/Newsletter'), {
   loading: () => <div className="h-[200px] bg-gray-800 animate-pulse" />,

@@ -17,7 +17,7 @@ import {
   FutureAI,
   CaseStudies,
   PressReleaseBlogs,
-  FAQSection,
+  // FAQSection,
   NewsletterSection,
   RiskDisclosure,
   FreeConsultationPopup,
@@ -47,7 +47,7 @@ export default function Home() {
       <CaseStudies />
       {/* <TradingViewIdea /> */}
 
-      <FAQSection />
+      {/* <FAQSection /> */}
 
       <NewsletterSection />
       <RiskDisclosure />
