@@ -3,7 +3,14 @@ import { supabase } from '@/lib/supabase';
 
 export async function GET() {
   try {
-    const { data, error } = await supabase.from('testimonials').select('*').order('order_index');
+    // Public site only ever sees testimonials the admin has flagged as active.
+    // Ordered by the explicit display order set in the Dashboard.
+    const { data, error } = await supabase
+      .from('testimonials')
+      .select('*')
+      .eq('is_active', true)
+      .order('order_index', { ascending: true });
+
     if (error) {
       console.error('Supabase error fetching testimonials:', error);
       return NextResponse.json({ error: error.message }, { status: 500 });
