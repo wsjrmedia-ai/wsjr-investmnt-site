@@ -83,11 +83,21 @@ const nextConfig = {
         ],
       },
       {
+        // API routes drive dynamic admin-managed content
+        // (testimonials, banners, team, gallery, etc.). Never cache them
+        // — otherwise edits made in the Dashboard take up to the cached
+        // max-age to show up on the live site. Individual routes that
+        // DO want caching can override this with explicit headers on
+        // their NextResponse.json() calls.
         source: '/api/(.*)',
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=300, s-maxage=300',
+            value: 'no-store, no-cache, must-revalidate, max-age=0',
+          },
+          {
+            key: 'Pragma',
+            value: 'no-cache',
           },
         ],
       },
