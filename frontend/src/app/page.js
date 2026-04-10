@@ -17,7 +17,7 @@ import {
   FutureAI,
   CaseStudies,
   PressReleaseBlogs,
-  // FAQSection,
+  VideoTestimonialSection,
   NewsletterSection,
   RiskDisclosure,
   FreeConsultationPopup,
@@ -47,9 +47,12 @@ export default function Home() {
       <CaseStudies />
       {/* <TradingViewIdea /> */}
 
-      {/* <FAQSection /> */}
-
       <NewsletterSection />
+
+      {/* Customer video testimonials — placed as the last content section
+          so it sits directly above the RiskDisclosure band + Footer */}
+      <VideoTestimonialSection />
+
       <RiskDisclosure />
       <FreeConsultationPopup />
 
