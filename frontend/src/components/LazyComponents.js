@@ -56,9 +56,11 @@ export const PressReleaseBlogs = dynamic(() => import('@/components/Home/PressRe
 //   loading: () => <div className="h-[300px] bg-gray-800 animate-pulse" />,
 // });
 
-export const VideoTestimonialSection = dynamic(() => import('@/components/Home/VideoTestimonialSection'), {
-  loading: () => <div className="h-[400px] bg-gray-800 animate-pulse" />,
-});
+// Note: VideoTestimonialSection is intentionally NOT exported from this file.
+// It is imported directly in app/page.js because wrapping it in dynamic() with
+// a gray loading fallback caused a hydration mismatch with the component's
+// own SSR-rendered skeleton cards, which silently unmounted the entire
+// section on the client.
 
 export const NewsletterSection = dynamic(() => import('@/components/Home/Newsletter'), {
   loading: () => <div className="h-[200px] bg-gray-800 animate-pulse" />,
