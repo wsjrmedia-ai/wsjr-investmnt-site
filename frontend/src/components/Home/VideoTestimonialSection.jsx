@@ -93,7 +93,7 @@ function TestimonialCard({ testimonial }) {
               className="h-28 w-28 md:h-32 md:w-32 rounded-full object-cover border-4 border-[#BA833C]"
             />
           ) : (
-            <div className="h-28 w-28 md:h-32 md:w-32 rounded-full bg-[#BA833C]/15 border-2 border-[#BA833C]/40 flex items-center justify-center text-4xl font-semibold text-[#BA833C]">
+            <div className="h-28 w-28 md:h-32 md:w-32 rounded-full bg-[#BA833C]/20 border-2 border-[#BA833C]/40 flex items-center justify-center text-4xl font-semibold text-[#BA833C]">
               {testimonial.name?.[0]?.toUpperCase() || '★'}
             </div>
           )}
