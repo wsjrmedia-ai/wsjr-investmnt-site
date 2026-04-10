@@ -7,7 +7,9 @@ const path = require("path");
 const next = require(path.join(__dirname, "../frontend/node_modules/next"));
 
 const app = express();
-const PORT = 5000;
+// wsjr-investmnt-site runs on port 3000 by default.
+// Override with PORT env var if needed.
+const PORT = Number(process.env.PORT) || 3000;
 
 // Point to frontend project root
 const nextApp = next({
@@ -23,6 +25,6 @@ nextApp.prepare().then(() => {
   });
 
   app.listen(PORT, () => {
-    console.log(`🚀 Server running on http://localhost:${PORT}`);
+    console.log(`🚀 wsjr-investmnt-site running on http://localhost:${PORT}`);
   });
 });
