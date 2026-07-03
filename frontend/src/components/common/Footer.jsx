@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <footer className="bg-[#071E2F] text-white px-4 md:px-16 py-16 font-sans">
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-8 pb-10">
+      <div className="grid grid-cols-1 md:grid-cols-6 gap-8 pb-10">
         {/* Logo & Description */}
         <div className="col-span-2">
           <div className="mb-4">
@@ -82,6 +82,36 @@ export default function Footer() {
             <li><Link className="hover:underline" href="/services/portfolio-management-advisory">Portfolio Management Advisory</Link></li>
             <li><Link className="hover:underline" href="/services/capitalcode">CapitalCode</Link></li>
             <li><Link className="hover:underline" href="/services/risk-management-asset-restructuring">Risk Management / Asset Restructuring</Link></li>
+          </ul>
+        </div>
+
+        {/* Group & Resources — cross-brand internal links reinforce the
+            shared Wall Street Jr entity; outbound links to the UAE regulator
+            and educational authorities add editorial authority signals
+            (flagged as missing in the May-2026 SEO audit). */}
+        <div className="col-span-1">
+          <h4 className="font-semibold mb-3 text-[16px]">Group &amp; Resources</h4>
+          <ul className="text-sm text-gray-300 space-y-2">
+            <li>
+              <a className="hover:underline" href="https://wsjrschool.com" target="_blank" rel="noopener">
+                Wall Street Jr Academy
+              </a>
+            </li>
+            <li>
+              <a className="hover:underline" href="https://topstocx.com" target="_blank" rel="noopener">
+                Topstocx Market Analysis Platform
+              </a>
+            </li>
+            <li>
+              <a className="hover:underline" href="https://www.sca.gov.ae/en/home.aspx" target="_blank" rel="noopener">
+                UAE Securities &amp; Commodities Authority
+              </a>
+            </li>
+            <li>
+              <a className="hover:underline" href="https://www.investor.gov/introduction-investing" target="_blank" rel="noopener">
+                Investor Education
+              </a>
+            </li>
           </ul>
         </div>
       </div>
